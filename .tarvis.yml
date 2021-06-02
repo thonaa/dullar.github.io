@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+  - "node"
+
+cache:
+  directories:
+    - node_modules
+
+branches:
+  only:
+    - main
+
+script:
+  - npm install
+  - npm run build-storybook
+  - cd storybook-static
+  - git init
+  - git add -A
+  - git commit -m 'deploy'
+  - git push -f https://${GITHUB_TOKEN}@github.com/dullarjs/dullar.github.io.git main:gh-pages
+
+deploy:
+provider: pages
+skip_cleanup: true
+github_token: $GITHUB_TOKEN
+local_dir: storybook-static
+on:
+  branch: main
