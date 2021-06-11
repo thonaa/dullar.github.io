@@ -16,6 +16,7 @@
   },
   "main": "index.js",
   "dependencies": {
+    "@dullar/queen": "^0.1.7",
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
   },
@@ -33,6 +34,8 @@
     "babel-loader": "^8.2.2",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
+    "postcss-scss": "^3.0.5",
+    "sass-loader": "^10.0.0-rc.0",
     "vue-loader": "^16.2.0"
   },
   "eslintConfig": {
