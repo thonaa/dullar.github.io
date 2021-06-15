@@ -49,4 +49,4 @@ jobs:
           git init
           git add -A
           git commit -m 'deploy'
-          git push -f https://${GITHUB_TOKEN}@github.com/dullarjs/dullar.github.io.git master:gh-pages
+          git push -f https://${{ secrets.ACCESS_TOKEN }}@github.com/dullarjs/dullar.github.io.git master:gh-pages
