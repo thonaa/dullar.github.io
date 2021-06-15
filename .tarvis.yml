@@ -8,7 +8,7 @@ cache:
 
 branches:
   only:
-    - main
+    - master
 
 script:
   - npm install
@@ -20,7 +20,7 @@ script:
   - git init
   - git add -A
   - git commit -m 'deploy'
-  - git push -f https://${GITHUB_TOKEN}@github.com/dullarjs/dullar.github.io.git main:gh-pages
+  - git push -f https://${GITHUB_TOKEN}@github.com/dullarjs/dullar.github.io.git master:gh-pages
 
 deploy:
   provider: pages
@@ -28,4 +28,4 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: dist
   on:
-    branch: main
+    branch: master
