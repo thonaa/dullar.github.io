@@ -13,7 +13,10 @@ branches:
 script:
   - npm install
   - npm run build-storybook
-  - cd storybook-static
+  - npm run build
+  - mkdir dist/docs
+  - mv storybook-static/* dist/docs
+  - cd dist
   - git init
   - git add -A
   - git commit -m 'deploy'
