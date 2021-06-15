@@ -24,6 +24,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: dist
 
       # Runs a single command using the runners shell
       - name: install all dependences
@@ -41,12 +45,3 @@ jobs:
 
       - name: move build-storybook to dist/docs
         run: mv storybook-static/* dist/docs
-
-
-      - name: publish to gh-pages branche
-        run: 
-          cd dist
-          git init
-          git add -A
-          git commit -m 'deploy'
-          git push -f https://${{ secrets.ACCESS_TOKEN }}@github.com/dullarjs/dullar.github.io.git master:gh-pages
