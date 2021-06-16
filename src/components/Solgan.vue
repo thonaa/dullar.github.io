@@ -44,10 +44,10 @@
       <h2>DEVELOPER TEAM MEMBERS</h2>
       <ul class="teammembers">
         <li><a href="https://github.com/justbefree" target="_blank"><img src="https://avatars.githubusercontent.com/u/12696197?s=96&v=4"></a></li>
-        <li><a href="https://github.com/justbefree" target="_blank"><img src="https://avatars.githubusercontent.com/u/17095525?s=96&v=4"></a></li>
-        <li><a href="https://github.com/justbefree" target="_blank"><img src="https://avatars.githubusercontent.com/u/17561703?s=96&v=4"></a></li>
-        <li><a href="https://github.com/justbefree" target="_blank"><img src="https://avatars.githubusercontent.com/u/25740954?s=96&v=4"></a></li>
-        <li><a href="https://github.com/justbefree" target="_blank"><img src="https://avatars.githubusercontent.com/u/34881173?s=96&v=4"></a></li>
+        <li><a href="https://github.com/menglol" target="_blank"><img src="https://avatars.githubusercontent.com/u/17095525?s=96&v=4"></a></li>
+        <li><a href="https://github.com/hushjh" target="_blank"><img src="https://avatars.githubusercontent.com/u/17561703?s=96&v=4"></a></li>
+        <li><a href="https://github.com/linxibaby" target="_blank"><img src="https://avatars.githubusercontent.com/u/25740954?s=96&v=4"></a></li>
+        <li><a href="https://github.com/thonaa" target="_blank"><img src="https://avatars.githubusercontent.com/u/34881173?s=96&v=4"></a></li>
       </ul>
     </div>
     <div>
