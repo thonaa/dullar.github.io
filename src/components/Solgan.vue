@@ -4,7 +4,7 @@
       <span class="dullar">Dullar</span> moves the technology
     </h1>
     <div>
-      <h2 class="h2">Dullar</h2>
+      <h2 class="h2">DULLAR</h2>
       <p>Self build web frontend ecosystem for high performance and efficiency</p>
       <a class="github" href="https://github.com/dullarjs" target="_blank">
         <img src="../assets/github.svg">
@@ -16,7 +16,7 @@
       </a>
     </div>
     <div>
-      <h2 class="h2">Our project</h2>
+      <h2 class="h2">OUR PROJECTS</h2>
       <ul>
         <li>
           <a href="https://www.npmjs.com/package/@dullar/king" target="_blank">@dullar/king:</a>
@@ -41,13 +41,21 @@
       </ul>
     </div>
     <div>
-      <h2>Team members</h2>
+      <h2>DEVELOPER TEAM MEMBERS</h2>
       <ul class="teammembers">
         <li><a href="https://github.com/justbefree" target="_blank"><img src="https://avatars.githubusercontent.com/u/12696197?s=96&v=4"></a></li>
         <li><a href="https://github.com/justbefree" target="_blank"><img src="https://avatars.githubusercontent.com/u/17095525?s=96&v=4"></a></li>
         <li><a href="https://github.com/justbefree" target="_blank"><img src="https://avatars.githubusercontent.com/u/17561703?s=96&v=4"></a></li>
         <li><a href="https://github.com/justbefree" target="_blank"><img src="https://avatars.githubusercontent.com/u/25740954?s=96&v=4"></a></li>
         <li><a href="https://github.com/justbefree" target="_blank"><img src="https://avatars.githubusercontent.com/u/34881173?s=96&v=4"></a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>UI & UX DESIGNER</h2>
+      <ul class="teammembers">
+        <li>
+          <a href="https://dribbble.com/July1127" target="_blank"><img src="https://cdn.dribbble.com/users/1630834/avatars/normal/fc10c20ff2eeaaca524aa998451f6203.jpeg?1588727315"></a>
+        </li>
       </ul>
     </div>
   </div>
@@ -73,6 +81,7 @@ a {
   font-weight: normal;
 }
 .solgan h2 {
+  font-weight: normal;
   /* text-align: left; */
 }
 h1 .dullar {
