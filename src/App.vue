@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img class="logo" alt="dullar logo" src="./assets/3@2x.png">
+  <Solgan/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Solgan from './components/Solgan.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Solgan
   }
 }
 </script>
@@ -21,6 +21,15 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.logo {
+  margin: 0;
+  padding:  0;
+
 }
 </style>
