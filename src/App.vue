@@ -1,5 +1,5 @@
 <template>
-  <img class="logo" alt="dullar logo" src="./assets/logo.svg">
+  <a href="./" title="Dullar"><img class="logo" alt="dullar logo" src="./assets/logo.svg"></a>
   <Solgan/>
 </template>
 
@@ -22,7 +22,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   font-size: 24px;
-  font-weight: 200;
+  font-weight: 300;
 }
 body {
   padding: 0;
