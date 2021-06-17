@@ -113,5 +113,6 @@ ul.teammembers li {
 ul.teammembers li img {
   width: 96px;
   height: auto;
+  border-radius: 50%;
 }
 </style>
