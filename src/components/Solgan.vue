@@ -5,7 +5,7 @@
     </h1>
     <div>
       <h2 class="h2">DULLAR</h2>
-      <p>Self build web frontend ecosystem for high performance and efficiency</p>
+      <p class="description">Self build web frontend ecosystem for high performance and efficiency</p>
       <a class="github" href="https://github.com/dullarjs" target="_blank">
         <img src="../assets/github.svg">
         View on Github
@@ -74,32 +74,39 @@ export default {
   margin: 0 auto;
 } */
 a {
-  color: #3e5d96;
-  font-weight: bold;
+  /* color: #3e5d96; */
+  color: red;
+  /* font-weight: bold; */
 }
 .solgan h1 {
-  font-weight: normal;
+  color: #666;
+  font-weight: 200;
 }
 .solgan h2 {
-  font-weight: normal;
+  font-weight: 200;
+  color: #666;
   /* text-align: left; */
 }
+.description {
+  color: #666;
+}
 h1 .dullar {
-  color: #3e5d96;
+  /* color: #3e5d96; */
 }
 .solgan .github {
-  border: 1px solid #7F8C8D;
+  border: 1px solid #666;
   background: #fff;
   text-decoration: none;
   padding: 10px;
   display: inline-block;
-  color: #7F8C8D;
+  color: #666;
   border-radius: 5px;
-  margin: auto 5px;
+  margin: 5px;
 }
 .solgan .github img {
   width: 20px;
-  vertical-align: top;
+  vertical-align: middle;
+  margin-top: -3px;
 }
 ul {
   list-style: none;
@@ -107,11 +114,14 @@ ul {
 ul li {
   margin: 10px;
 }
+ul li span {
+  color: #666;
+}
 ul.teammembers li {
   display: inline-block;
 }
 ul.teammembers li img {
-  width: 96px;
+  width: 60px;
   height: auto;
   border-radius: 50%;
 }
