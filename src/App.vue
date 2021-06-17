@@ -1,5 +1,5 @@
 <template>
-  <a href="./" title="Dullar"><img class="logo" alt="dullar logo" src="./assets/logo.svg"></a>
+  <a href="./" title="Dullar"><img class="logo" alt="dullar logo" src="./assets/logo.animated.svg"></a>
   <Solgan/>
 </template>
 
