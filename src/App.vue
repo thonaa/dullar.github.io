@@ -1,5 +1,5 @@
 <template>
-  <img class="logo" alt="dullar logo" src="./assets/3@2x.png">
+  <img class="logo" alt="dullar logo" src="./assets/logo.svg">
   <Solgan/>
 </template>
 
@@ -31,6 +31,6 @@ body {
 .logo {
   margin: 0;
   padding:  0;
-  width: 20%;
+  width: 30%;
 }
 </style>
