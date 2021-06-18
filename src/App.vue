@@ -1,5 +1,5 @@
 <template>
-  <a href="./" title="Dullar"><img class="logo" alt="dullar logo" src="./assets/logo.animated.svg"></a>
+  <a href="./" title="Dullar"><img class="logo" alt="dullar logo" src="./assets/logo_animated_onebyone.svg"></a>
   <Solgan/>
 </template>
 
@@ -32,5 +32,10 @@ body {
   margin: 0;
   padding:  0;
   width: 30%;
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+  .logo{
+      width: 90%;
+  }
 }
 </style>

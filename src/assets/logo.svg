@@ -3,10 +3,10 @@
     <title>3@3x</title>
     <g id="3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="编组" transform="translate(66.000000, 2.000000)">
-            <path d="M235,0 C254.882251,-3.65231026e-15 271,16.117749 271,36 L271,208 L271,208 L199,208 L199,36 C199,16.117749 215.117749,3.65231026e-15 235,0 Z" id="矩形" fill="#0165FF"></path>
-            <path d="M117.5,327.5 C182.393458,327.5 235,274.221885 235,208.5" id="路径" stroke="#00B2FF" stroke-width="72" stroke-linecap="round"></path>
-            <path d="M0,208.5 C0,274.221885 52.6065419,327.5 117.5,327.5" id="路径" stroke="#45D6FE" stroke-width="72" stroke-linecap="round"></path>
-            <path d="M117.5,89.5 C52.6065419,89.5 0,142.778115 0,208.5" id="路径" stroke="#9FEAFF" stroke-width="72" stroke-linecap="round"></path>
+            <path d="M117.5,89.5 C52.6065419,89.5 0,142.778115 0,208.5" id="path3" stroke="#9FEAFF" stroke-width="72" stroke-linecap="round"></path>
+            <path d="M0,208.5 C0,274.221885 52.6065419,327.5 117.5,327.5" id="path2" stroke="#45D6FE" stroke-width="72" stroke-linecap="round"></path>
+            <path d="M117.5,327.5 C182.393458,327.5 235,274.221885 235,208.5" id="path1" stroke="#00B2FF" stroke-width="72" stroke-linecap="round"></path>
+            <path d="M235,200 L235,40" id="path" stroke="#0165FF" stroke-width="72" stroke-linecap="round" class="AGRXInlI_0"></path>  
         </g>
     </g>
 </svg>

@@ -1,0 +1,12 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg width="368px" height="368px" viewBox="0 0 368 368" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="">
+    <title>3@3x</title>
+    <g id="3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ç¼ç»" transform="translate(66.000000, 2.000000)">
+            <path d="M117.5,89.5 C52.6065419,89.5 0,142.778115 0,208.5" id="path3" stroke="#9FEAFF" stroke-width="72" stroke-linecap="round" class="iixQminS_0"></path>
+            <path d="M0,208.5 C0,274.221885 52.6065419,327.5 117.5,327.5" id="path2" stroke="#45D6FE" stroke-width="72" stroke-linecap="round" class="iixQminS_1"></path>
+            <path d="M117.5,327.5 C182.393458,327.5 235,274.221885 235,208.5" id="path1" stroke="#00B2FF" stroke-width="72" stroke-linecap="round" class="iixQminS_2"></path>
+            <path d="M235,200 L235,40" id="path" stroke="#0165FF" stroke-width="72" stroke-linecap="round" class="AGRXInlI_0 iixQminS_3"></path>  
+        </g>
+    </g>
+<style data-made-with="vivus-instant">.iixQminS_0{stroke-dasharray:186 188;stroke-dashoffset:187;animation:iixQminS_draw_0 9200ms linear 0ms infinite,iixQminS_fade 9200ms linear 0ms infinite;}.iixQminS_1{stroke-dasharray:186 188;stroke-dashoffset:187;animation:iixQminS_draw_1 9200ms linear 0ms infinite,iixQminS_fade 9200ms linear 0ms infinite;}.iixQminS_2{stroke-dasharray:186 188;stroke-dashoffset:187;animation:iixQminS_draw_2 9200ms linear 0ms infinite,iixQminS_fade 9200ms linear 0ms infinite;}.iixQminS_3{stroke-dasharray:160 162;stroke-dashoffset:161;animation:iixQminS_draw_3 9200ms linear 0ms infinite,iixQminS_fade 9200ms linear 0ms infinite;}@keyframes iixQminS_draw{100%{stroke-dashoffset:0;}}@keyframes iixQminS_fade{0%{stroke-opacity:1;}95.65217391304348%{stroke-opacity:1;}100%{stroke-opacity:0;}}@keyframes iixQminS_draw_0{8.695652173913043%{stroke-dashoffset: 187}30.434782608695656%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes iixQminS_draw_1{12.318840579710145%{stroke-dashoffset: 187}34.05797101449275%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes iixQminS_draw_2{15.942028985507244%{stroke-dashoffset: 187}37.68115942028986%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes iixQminS_draw_3{19.565217391304348%{stroke-dashoffset: 161}41.30434782608695%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}</style></svg>
