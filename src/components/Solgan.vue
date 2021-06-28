@@ -27,6 +27,10 @@
           <span> Advanced and highly reusable Mobile UI Components built on <a href="https://v3.vuejs.org/" target="_blank">Vue3</a></span>
         </li>
         <li>
+          <a href="https://www.npmjs.com/package/@dullar/venus" target="_blank">@dullar/venus:</a>
+          <span> Advanced and highly reusable Mobile UI Components built on <a href="https://v3.vuejs.org/" target="_blank">Vue3</a></span>
+        </li>
+        <li>
           <a href="https://www.npmjs.com/package/@dullar/cube" target="_blank">@dullar/cube:</a>
           <span> A modern JavaScript utility library</span>
         </li>
