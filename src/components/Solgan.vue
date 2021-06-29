@@ -23,11 +23,11 @@
           <span> Advanced and highly reusable UI Components built on <a href="https://v3.vuejs.org/" target="_blank">Vue3</a></span>
         </li>
         <li>
-          <a href="https://www.npmjs.com/package/@dullar/queen" target="_blank">@dullar/queen:</a>
+          <a href="https://ui.dullar.xyz/queen/#/" target="_blank">@dullar/queen:</a>
           <span> Advanced and highly reusable Mobile UI Components built on <a href="https://v3.vuejs.org/" target="_blank">Vue3</a></span>
         </li>
         <li>
-          <a href="https://www.npmjs.com/package/@dullar/venus" target="_blank">@dullar/venus:</a>
+          <a href="http://ui.dullar.xyz/venus/#/" target="_blank">@dullar/venus:</a>
           <span> Advanced and highly reusable Mobile UI Components built on <a href="https://v3.vuejs.org/" target="_blank">Vue3</a></span>
         </li>
         <li>
