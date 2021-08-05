@@ -18,44 +18,20 @@
     <div>
       <h2 class="h2">OUR PROJECTS</h2>
       <ul>
-        <li>
-          <a href="https://www.npmjs.com/package/@dullar/king" target="_blank">@dullar/king:</a>
-          <span> Advanced and highly reusable UI Components built on <a href="https://v3.vuejs.org/" target="_blank">Vue3</a></span>
-        </li>
-        <li>
-          <a href="https://ui.dullar.xyz/queen/#/" target="_blank">@dullar/queen:</a>
-          <span> Advanced and highly reusable Mobile UI Components built on <a href="https://v3.vuejs.org/" target="_blank">Vue3</a></span>
-        </li>
-        <li>
-          <a href="http://ui.dullar.xyz/venus/#/" target="_blank">@dullar/venus:</a>
-          <span> Advanced and highly reusable Mobile UI Components built on <a href="https://v3.vuejs.org/" target="_blank">Vue3</a></span>
-        </li>
-        <li>
-          <a href="http://ui.dullar.xyz/mercury/#/" target="_blank">@dullar/mercury:</a>
-          <span> Advanced and highly reusable UI Components built on <a href="https://vuejs.org/" target="_blank">Vue2</a></span>
-        </li>
-        <li>
-          <a href="https://www.npmjs.com/package/@dullar/cube" target="_blank">@dullar/cube:</a>
-          <span> A modern JavaScript utility library</span>
-        </li>
-        <li>
-          <a href="https://www.npmjs.com/package/@dullar/bem" target="_blank">@dullar/bem:</a>
-          <span> BEM technology implemented by SCSS & TypeScript</span>
-        </li>
-        <li>
-          <a href="https://www.npmjs.com/package/@dullar/cli" target="_blank">@dullar/cli:</a>
-          <span> A tool for you to build your web project based on Vue2/3</span>
+        <li v-for="(p, i) in projects" :key="i">
+          <a :href="p.examples || p.npm" target="_blank">{{p.name}}:</a>
+          <span> {{p.desc}} <a v-if="p.builtOn !== ''" :href="p.outsideUrl" target="_blank">{{p.builtOn}}</a></span>
         </li>
       </ul>
     </div>
     <div>
       <h2>DEVELOPER TEAM MEMBERS</h2>
       <ul class="teammembers">
-        <li><a href="https://github.com/justbefree" title="justbefree" target="_blank"><img src="https://avatars.githubusercontent.com/u/12696197?s=96&v=4"></a></li>
-        <li><a href="https://github.com/menglol" title="menglol" target="_blank"><img src="https://avatars.githubusercontent.com/u/17095525?s=96&v=4"></a></li>
-        <li><a href="https://github.com/hushjh" title="hushjh" target="_blank"><img src="https://avatars.githubusercontent.com/u/17561703?s=96&v=4"></a></li>
-        <li><a href="https://github.com/linxibaby" title="linxibaby" target="_blank"><img src="https://avatars.githubusercontent.com/u/25740954?s=96&v=4"></a></li>
-        <li><a href="https://github.com/thonaa" title="thonaa" target="_blank"><img src="https://avatars.githubusercontent.com/u/34881173?s=96&v=4"></a></li>
+        <li v-for="(team, i) in teamMember" :key="i">
+          <a :href="team.github" :title="team.title" target="_blank">
+            <img :src="team.profile">
+          </a>
+        </li>
       </ul>
     </div>
     <div>
@@ -70,8 +46,16 @@
 </template>
 
 <script>
+import { teamMember } from "./team";
+import { projects } from "./projects";
 export default {
-  name: 'Solgan'
+  name: 'Solgan',
+  data() {
+    return {
+      teamMember,
+      projects
+    }
+  }
 }
 </script>
 
