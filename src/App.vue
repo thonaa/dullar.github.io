@@ -1,5 +1,6 @@
 <template>
   <a href="./" title="Dullar"><img class="logo" alt="dullar logo" src="./assets/logo_animated_onebyone.svg"></a>
+  <img src="./assets/logo.png" class="hide">
   <Solgan/>
 </template>
 
@@ -27,6 +28,9 @@ export default {
 body {
   padding: 0;
   margin: 0;
+}
+.hide {
+  display: none;
 }
 .logo {
   margin: 0;
