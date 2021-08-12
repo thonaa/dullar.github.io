@@ -1,6 +1,6 @@
 <template>
   <a href="./" title="Dullar"><img class="logo" alt="dullar logo" src="./assets/logo_animated_onebyone.svg"></a>
-  <img src="./assets/logo.png" class="hide">
+  <img src="./assets/dullar.png" class="hide">
   <Solgan/>
 </template>
 
